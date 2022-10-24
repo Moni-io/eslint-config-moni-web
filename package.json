@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-moni-web",
+  "version": "0.0.1",
+  "description": "Moni's ESLint config, following our styleguide for web projects",
+  "main": "index.js",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.0",
+    "@typescript-eslint/parser": "^5.36.0",
+    "eslint": "^8.23.0",
+    "eslint-config-next": "^12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.5.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "https://twitter.com/qmzik",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5.36.0",
+    "@typescript-eslint/parser": ">=5.36.0",
+    "eslint": ">=8.23.0",
+    "eslint-config-next": ">=12.2.5",
+    "eslint-config-prettier": ">=8.5.0",
+    "eslint-plugin-prettier": ">=4.2.1",
+    "eslint-plugin-promise": ">=6.0.1",
+    "eslint-plugin-react": ">=7.31.1",
+    "eslint-plugin-react-hooks": ">=4.6.0",
+    "eslint-plugin-simple-import-sort": ">=7.0.0",
+    "prettier": ">=2.5.0"
+  }
+}
